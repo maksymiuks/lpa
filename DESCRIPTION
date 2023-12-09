@@ -1,0 +1,12 @@
+Package: lpa
+Title: Label Propagation Algorithm
+Version: 0.0.1
+Authors@R: c(person("Szymon", "Maksymiuk", , "sz.maksymiuk@gmail.com", role = c("aut", "cre")),
+    person("Władysław", "Olejnik", role = c("aut")))
+Description: Implementation of the Label Propagation Algorithm. Based on the Traag and Subelj <https://doi.org/10.1038/s41598-023-29610-z> the package implements original and retention version of the alghoritm.
+License: GPL (>= 3)
+Depends: 
+  igraph
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
