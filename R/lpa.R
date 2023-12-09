@@ -8,6 +8,7 @@
 #' @param G igraph undirected graph.
 #' @param method character value, either "retention" or "original".
 #' @param max_i integer, maximum number of iterations for algorithm to run.
+#' @param verbose logical whehter to send diagnostics messages.
 #' 
 #' @import igraph
 #' 

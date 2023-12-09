@@ -12,6 +12,8 @@ lpa(G, method = c("retention", "original"), max_i = 50, verbose = TRUE)
 \item{method}{character value, either "retention" or "original".}
 
 \item{max_i}{integer, maximum number of iterations for algorithm to run.}
+
+\item{verbose}{logical whehter to send diagnostics messages.}
 }
 \value{
 igraph object with "group" feature assigned to every node
